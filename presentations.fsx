@@ -1,6 +1,7 @@
 #load "./packages/FSharp.Formatting/FSharp.Formatting.fsx"
 #r "./packages/HtmlAgilityPack/lib/netstandard2.0/HtmlAgilityPack.dll"
 #r "./packages/Fue/lib/netstandard2.0/Fue.dll"
+#load "./config.fsx"
 
 namespace Presentations
     open FSharp.Markdown
@@ -13,7 +14,7 @@ namespace Presentations
         open System.IO
         open Fue.Data
         open Fue.Compiler
-
+        open Config
         let getTitle(line:MarkdownParagraph) = 
                 match line with
                 | Heading (1,heading) -> 
@@ -68,5 +69,5 @@ namespace Presentations
                     |> add "content" rawContent
                     |> fromFile template
 
-                File.WriteAllText((sprintf "./public/%s" filename),compiledHTML,System.Text.Encoding.UTF8)
+                File.WriteAllText((sprintf "%s/%s" Config.getDestionationDirectory filename),compiledHTML,System.Text.Encoding.UTF8)
             )

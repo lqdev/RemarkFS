@@ -1,0 +1,4 @@
+{
+    "source_directory": "./src",
+    "destination_directory": "./public"
+}

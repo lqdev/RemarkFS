@@ -53,5 +53,9 @@ Once the script is done running, check the `public` folder and you should see a 
 
 ![](sample.png)
 
+## Configuration
+
+By default, `Markdown` files are stored in the `src` directory and `Remark` presentations are stored in the `public` directory. To change this, edit the `app.config.json` properties to match the folder of your choosing.
+
 
 

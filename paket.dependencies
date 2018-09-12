@@ -1,5 +1,6 @@
 source https://www.nuget.org/api/v2
 
+nuget FSharp.Data
 nuget FSharp.Formatting
 nuget Fue
 nuget HtmlAgilityPack 1.5.2.0
