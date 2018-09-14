@@ -9,6 +9,7 @@ FSharp Markdown Slide Creation Tool based on [Remark](https://github.com/gnab/re
 - [Fsharp.Formatting](http://fsprojects.github.io/FSharp.Formatting/)
 - [Paket](https://fsprojects.github.io/Paket/)
 - [Remark](https://github.com/gnab/remark)
+- [FAKE](https://fake.build/)
 
 ## Install
 
