@@ -2,7 +2,7 @@
 
 FSharp Markdown Slide Creation Tool based on [Remark](https://github.com/gnab/remark)
 
-## Prerequisites
+## Dependencies
 
 - [Mono](https://www.mono-project.com/download/stable/)
 - [Fue](https://github.com/Dzoukr/Fue)
